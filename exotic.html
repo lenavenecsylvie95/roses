@@ -11,8 +11,10 @@
 </head>
 
 <nav class="navbar navbar-light">
-  <a class="nav-link nav mb-0" href="index.html"><img src="assets/img/image-accueil.png" width="65" height="65"
-      alt="../index.html"><span class="text-white">Accueil</span></a>
+  <div>
+    <a class="nav-link nav mb-0" href="index.html"><img src="assets/img/image-accueil.png" width="65" height="65"
+        alt="../index.html"><br><span class="text-white">Accueil</span></a>
+  </div>
   <form class="form-inline">
     <button class="btn btn-sm btn-outline-light" type="button">Plantes carnivores</button>
     <button class="btn btn-sm btn-outline-light" type="button">Mariage</button>
@@ -22,70 +24,90 @@
   </form>
 </nav>
 
-<body>
+<body class="d-flex flex-column h-100">
   <h1 class="text-center">Soyez le bienvenue devant le pouvoir des roses</h1>
   <h2 class="h3 text-center text-white">Notre séléction de plantes éxotiques</h2>
 
-  <div class="container row">
+  <div class="row">
 
-    <div class="card floatimg">
+    <div class="card">
       <div class="card-body">
         <img class="card-img-top imp" src="assets/img/exoticAnemone.jpg" alt="Card image cap">
-        <p class="card-footer text-center">Anemone Fushia Française</p>
+        <p class="card-footer text-center">Anemone Fushia Française<br><a href="#overlay3">Informations</a>
+        </p>
       </div>
     </div>
-    <div class="card floatimg">
+    <div class="card">
       <div class="card-body">
         <img class="card-img-top imp" src="assets/img/exoticLotus.jpg" alt="Card image cap">
-        <p class="card-footer text-center">Lotus Japonais</p>
+        <p class="card-footer text-center">Lotus Japonais<br><a href="#" class="card-link">Informations</a></p>
       </div>
     </div>
-    <div class="card floatimg">
+    <div class="card">
       <div class="card-body">
         <img class="card-img-top imp" src="assets/img/exoticFeuillus.jpg" alt="Card image cap">
-        <p class="card-footer text-center">Feuilles décorative de Colombie</p>
+        <p class="card-footer text-center">Feuilles décorative de Colombie<br><a href="#"
+            class="card-link">Informations</a></p>
       </div>
     </div>
-    <div class="card floatimg">
+    <div class="card ">
       <div class="card-body">
         <img class="card-img-top imp" src="assets/img/exoticLily.jpg" alt="Card image cap">
-        <p class="card-footer text-center">Lis buldifère de République tchèque</p>
+        <p class="card-footer text-center">Lis buldifère de République tchèque<br><a href="#"
+            class="card-link">Informations</a></p>
       </div>
     </div>
-    <div class="card floatimg">
+    <div class="card">
       <div class="card-body">
         <img class="card-img-top imp" src="assets/img/carniDrosera.jpg" alt="Card image cap">
-        <p class="card-footer text-center">Drosera de l'Afrique du Sud</p>
+        <p class="card-footer text-center">Drosera de l'Afrique du Sud<br><a href="#" class="card-link">Informations</a>
+        </p>
       </div>
     </div>
-    <div class="card floatimg">
+    <div class="card">
       <div class="card-body">
         <img class="card-img-top imp" src="assets/img/carniVenus.jpg" alt="Card image cap">
-        <p class="card-footer text-center">Vénus attrape-mouche de Caroline du Nord</p>
+        <p class="card-footer text-center">Vénus attrape-mouche de Caroline du Nord<br><a href="#"
+            class="card-link">Informations</a></p>
       </div>
     </div>
-    <div class="card floatimg">
+    <div class="card">
       <div class="card-body">
         <img class="card-img-top imp" src="assets/img/carniSarracenia.jpg" alt="Card image cap">
-        <p class="card-footer text-center">Sarracenia oreophila de Caroline du Sud</p>
+        <p class="card-footer text-center">Sarracenia oreophila de Caroline du Sud<br><a href="#"
+            class="card-link">Informations</a></p>
       </div>
     </div>
   </div>
+  
 </body>
 
-<footer class="text-center text-lg-start">
+<footer class="text-center text-lg-start sticky-footer mt-auto py-3">
   <div class="container p-4">
     <div class="row">
       <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
         <h5 class="text-uppercase">Contact</h5>
-        <p>powerflower@gmail.com <br> 04.44.44.35.41</p>
-        <button class="btn btn-sm btn-outline-success">Nous contacter</button>
+          <p>powerflower@gmail.com <br> 04.44.44.35.41</p>
+        <button class="btn btn-sm btn-outline-success" >Nous contacter</button>
       </div>
-      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-        © 2020 Copyright
-      </div>
-    </div>
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+    © 2020 Copyright
   </div>
 </footer>
+
+
+    <div id="overlay3">
+      <div class="popup_block">
+        <a class="close" href="#noWhere"><img alt="Fermer" title="Fermer la fenêtre" class="btn_close"
+            src="./images/close_pop.png"></a>
+        <img style="float: right; margin: 0 0 0 20px;" alt="Lil bomb dude" src="./images/bomber.gif">
+        <h2>Popup</h2>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Natus, iure autem nulla asperiores ab nobis cumque dicta? Eaque, neque laboriosam.</p>
+
+      </div>
+    </div>
+
 
 </html>
