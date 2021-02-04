@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Le pouvoir des roses</title>
 </head>
-      <nav class="navbar navbar-light fixed-top">
+      <nav class="navbar navbar-light">
         <a class="nav-link nav mb-0" href="index.html"><img src="assets/img/image-accueil.png" width="65" height="65" alt="../index.html"></a>
         <form class="form-inline">
           <div class="btn-group">
@@ -42,37 +42,18 @@
       </form>
       </nav>
 <body>
-  <h1 class="text-center">Soyez le bienvenue devant le pouvoir des roses</h1>
-  <div class="card" id="firstCard" style="width: 18rem;">
-    <img class="card-img-top" src="assets/img/image-accueil.png" alt="Card image cap">
-    <div class="card-body">
-      <p class="card-text">description.</p>
-    </div>
-  </div>
-  <div class="card" style="width: 18rem;">
-    <img class="card-img-top" src="assets/img/image-accueil.png" alt="Card image cap">
-    <div class="card-body">
-      <p class="card-text">description 2.</p>
-    </div>
-  </div>
-  <div class="card" style="width: 18rem;">
-    <img class="card-img-top" src="assets/img/image-accueil.png" alt="Card image cap">
-    <div class="card-body">
-      <p class="card-text">description 3.</p>
-    </div>
-  </div>
-  <div id="cards" class="card" style="width: 18rem;">
-    <img class="card-img-top" src="assets/img/image-accueil.png" alt="Card image cap">
-    <div class="card-body">
-      <p class="card-text">description 4.</p>
-    </div>
-  </div>
-  <div id="cards" class="card" style="width: 18rem;">
-    <img class="card-img-top" src="assets/img/image-accueil.png" alt="Card image cap">
-    <div class="card-body">
-      <p class="card-text">description 5.</p>
-    </div>
-  </div>
+<h1 class="text-center">Nous contacter</h1>
+<form id="contact" action="" method="">
+<label for="lastname">Nom:</label>
+<input type="text" id="lastname" name="userLastname">
+<label for="firstname">Prénom :</label>
+<input type="text" id="firstName" name="userFirstname">
+<label for="mail">e-mail :</label>
+<input type="text" id="mail" name="userMail">
+<label for="msg">Message :</label>
+<textarea name="userMessage" id="msg" cols="80" rows="10"></textarea>
+<button class="btn btn-sm btn-outline-success">Envoyer</button>
+</form>
 </body>
 <footer class="text-center text-lg-start">
   <div class="container p-4">
@@ -80,10 +61,10 @@
       <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
         <h5 class="text-uppercase">Contact</h5>
           <p>powerflower@gmail.com <br> 04.44.44.35.41</p>
-        <button class="btn btn-sm btn-outline-success" >Nous contacter</button>
       </div>
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-    © 2020 Copyright
+  <div class="text-center p-3">
+    Nous contacter<br>
+    <button class="btn btn-sm btn-outline-success" >Nous contacter</button>
   </div>
 </footer>
 </html>
