@@ -14,14 +14,13 @@ h1 {
     color: white;
 }
 
-.card {
+.card-group {
     float: left;
-    margin-left: 170px;
-    margin-top: 130px;
+    justify-content: space-between;
 }
 
-#cards{
-    margin-left: 320px;
+.cards{
+    float: left;
 }
 
 footer {
@@ -43,9 +42,16 @@ button{
     border-radius: 1em;
 }
 
-label {
+#contact label {
     display: inline-block;
     width: max-content;
     text-align: right;
     display:table-cell;
   }
+
+#contact input {
+    margin-top: 15px;
+}
+#contact button {
+    margin-left: 40%;
+}
