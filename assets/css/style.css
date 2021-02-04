@@ -8,22 +8,38 @@ footer {
 
 body {
     background-color: #B1F9FC;
+    font-size: 2vh;
 }
 
 h1 {
     color: white;
 }
-
-.card {
-    float: left;
-    margin-left: 170px;
-    margin-top: 130px;
-}
-
-#cards{
-    margin-left: 320px;
-}
-
+/*
 footer {
     margin-top: 100%;
+}
+*/
+.card {
+    margin: 5vh;
+    height: 45vh;
+    width: 45vh;
+    object-fit: contain;
+    background-color: unset;
+    border: unset;
+}
+
+.imp {
+    height: 35vh;
+}
+
+.floatimg {
+    float: unset;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.card-footer {
+    background-color: white;
+    height: 10vh;
 }
