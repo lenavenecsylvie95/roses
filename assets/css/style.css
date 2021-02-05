@@ -1,38 +1,54 @@
+/*start header */
 nav {
     background-color: #0B7189;
 }
 
 footer {
     background-color: #0B7189;
+    width: 100%;
 }
 
 body {
     background-color: #B1F9FC;
-}
+    font-family: 'Big Shoulders Display', cursive;
 
+}
+/*fin header*/
+
+/*gneu */
 h1 {
-    color: white;
+    color: rgb(53, 51, 187);
+    text-transform: uppercase;
 }
 
-.card-group {
-    float: left;
-    justify-content: space-between;
+p{
+    color: rgb(53, 51, 187);
+    font-style: italic;
+    text-align: center;
 }
 
-.cards{
-    float: left;
-}
-
-footer {
-    margin-top: 100%;
-}
 button{
     margin-right: 3px;
 }
+
 .btn-group{
     margin-right: 20px;
 }
 
+#address {
+    color: black;
+}
+
+#imgHome{
+    height: 450px;
+}
+
+.card-body{
+    border: 1px solid rgb(38, 0, 255);
+}
+/* fin gneu */
+
+/* page contact */
 #contact{
     margin: 0 auto;
     width: max-content;
@@ -40,6 +56,7 @@ button{
     padding: 1em;
     border: 1px solid #CCC;
     border-radius: 1em;
+    margin-bottom: 100px;
 }
 
 #contact label {
@@ -52,6 +69,12 @@ button{
 #contact input {
     margin-top: 15px;
 }
+
 #contact button {
     margin-left: 40%;
 }
+#contactBloc{
+    display: flex;
+}
+
+/*------*/
