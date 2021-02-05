@@ -1,28 +1,49 @@
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <title>Le pouvoir des roses</title>
-</head>
-
-<nav class="navbar navbar-light">
-  <div>
-    <a class="nav-link nav mb-0" href="index.html"><img src="assets/img/image-accueil.png" width="65" height="65"
-        alt="../index.html"><br><span class="text-white">Accueil</span></a>
-  </div>
-  <form class="form-inline">
-    <button class="btn btn-sm btn-outline-light" type="button">Plantes carnivores</button>
-    <button class="btn btn-sm btn-outline-light" type="button">Mariage</button>
-    <button class="btn btn-sm btn-outline-light" type="button">Saint-Valentin</button>
-    <button class="btn btn-sm btn-outline-light" type="button">Décès</button>
-    <button class="btn btn-sm btn-outline-light" type="button">Roses</button>
-  </form>
-</nav>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+      integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Le pouvoir des roses</title>
+  </head>
+  
+  <nav class="navbar navbar-light">
+    <a class="nav-link nav mb-0" href=".html"><img src="assets/img/image-accueil.png" width="65" height="65"
+        alt="../index.html"></a>
+    <form class="form-inline">
+      <div class="btn-group">
+        <button type="button" class="btn btn-light">Occasions</button>
+        <button type="button" class="btn btn-light dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Saint-Valentin</a>
+          <a class="dropdown-item" href="#">Mariage</a>
+        </div>
+      </div>
+      <div class="btn-group">
+        <button type="button" class="btn btn-light">Plantes</button>
+        <button type="button" class="btn btn-light dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Plantes exotiques</a>
+        </div>
+      </div>
+    </form>
+  </nav>
 
 <body class="d-flex flex-column h-100">
   <h1 class="text-center">Soyez le bienvenue devant le pouvoir des roses</h1>
@@ -83,11 +104,11 @@
     <div class="row">
       <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
         <h5 class="text-uppercase">Contact</h5>
-        <p>powerflower@gmail.com <br> 04.44.44.35.41</p>
-        <button class="btn btn-sm btn-outline-success">Nous contacter</button>
+        <p id="address">powerflower@gmail.com <br> 04.44.44.35.41</p>
       </div>
-      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-        © 2020 Copyright
+      <div class="text-center p-3">
+        Nous contacter<br>
+        <button class="btn btn-sm btn-outline-success">Nous contacter</button>
       </div>
 </footer>
 
@@ -103,8 +124,8 @@
     <h2 class="text-center">Anemone Fushia Française</h2>
 
     <p>L'Anémone est une fleur d’hiver délicate et pleine de romantisme. <br>
-      L'anémone se décline dans de nombreuses couleurs : bleue, rouge, blanche ou fushia. <br>
-      Description du produit : <br>
+      L'anémone se décline dans de nombreuses couleurs : <br> bleue, rouge, blanche ou fushia. <br>
+      <br> Description du produit : <br>
       - taille : environ 30cm <br>
       - vendue par botte de 10 tiges d'anémones <br>
       - couleur : fushia</p>

@@ -1,24 +1,84 @@
+/*start header */
 nav {
     background-color: #0B7189;
 }
 
 footer {
     background-color: #0B7189;
+    width: 100%;
 }
 
 body {
     background-color: #B1F9FC;
-    font-size: 2vh;
+    font-family: 'Big Shoulders Display', cursive;
+
+}
+/*fin header*/
+
+/*gneu */
+h1 {
+    color: rgb(53, 51, 187);
+    text-transform: uppercase;
 }
 
-h1 {
-    color: white;
+p{
+    color: rgb(53, 51, 187);
+    font-style: italic;
+    text-align: center;
 }
-/*
-footer {
-    margin-top: 100%;
+
+button{
+    margin-right: 3px;
 }
-*/
+
+.btn-group{
+    margin-right: 20px;
+}
+
+#address {
+    color: black;
+}
+
+#imgHome{
+    height: 450px;
+}
+
+.card-body{
+    border: 1px solid rgb(38, 0, 255);
+}
+/* fin gneu */
+
+/* page contact */
+#contact{
+    margin: 0 auto;
+    width: max-content;
+    text-transform: uppercase;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    margin-bottom: 100px;
+}
+
+#contact label {
+    display: inline-block;
+    width: max-content;
+    text-align: right;
+    display:table-cell;
+  }
+
+#contact input {
+    margin-top: 15px;
+}
+
+#contact button {
+    margin-left: 40%;
+}
+#contactBloc{
+    display: flex;
+}
+
+/*------*/
+/* - - - Partie de Brice - - - */
 .card {
     margin: 5vh;
     height: 45vh;
@@ -39,7 +99,6 @@ footer {
     background-color: white;
     height: 10vh;
 }
-
 
 /*******************************************overlay***********************************/
 #anemon{
@@ -140,3 +199,4 @@ img.btn_close {
 .row {
     justify-content: space-between;
 }
+/* - - - Fin de la Partie de Brice - - - */
