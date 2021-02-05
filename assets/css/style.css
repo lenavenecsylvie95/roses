@@ -42,25 +42,94 @@ footer {
 
 
 /*******************************************overlay***********************************/
-#overlay3{
+#anemon{
     display: none;
     position: fixed;
     top:0; right:0; bottom:0; left:0;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 1000;
 }
-#overlay3:target{
+#anemon:target{
     display: block;
 }
+/*2*/
+#lotus{
+    display: none;
+    position: fixed;
+    top:0; right:0; bottom:0; left:0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+#lotus:target{
+    display: block;
+}
+/*3*/
+#feuillus{
+    display: none;
+    position: fixed;
+    top:0; right:0; bottom:0; left:0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+#feuillus:target{
+    display: block;
+}
+/*4*/
+#lily{
+    display: none;
+    position: fixed;
+    top:0; right:0; bottom:0; left:0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+#lily:target{
+    display: block;
+}
+/*5*/
+#drosera{
+    display: none;
+    position: fixed;
+    top:0; right:0; bottom:0; left:0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+#drosera:target{
+    display: block;
+}
+/*6*/
+#venus{
+    display: none;
+    position: fixed;
+    top:0; right:0; bottom:0; left:0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+#venus:target{
+    display: block;
+}
+/*7*/
+#sarrac{
+    display: none;
+    position: fixed;
+    top:0; right:0; bottom:0; left:0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+#sarrac:target{
+    display: block;
+}
+/*basic*/
 .popup_block{
     background: #fff;
-    padding: 20px;
-    border: 20px solid #ddd;
+    padding: 5vh;
+    border: 10px solid #ddd;
     position: relative;
     margin: 10% auto;
-    width: 40%;
+    width: 70%;
+    min-height: 70vh;
     box-shadow: 0px 0px 20px #000;
     border-radius: 10px;
+    object-fit: contain;
 }
 img.btn_close {
     float: right;
